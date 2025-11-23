@@ -62,7 +62,7 @@ def main():
     simulacion_ganada = False
 
     # Objetivo de producción (para "ganar" la simulación)
-    objetivo_produccion = 800.0
+    objetivo_produccion = 5000.0
 
     # Calculamos resultados del primer ciclo
     produccion, indice_contaminacion, salud_rio = calcular_resultados_ciclo(
